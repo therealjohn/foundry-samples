@@ -27,5 +27,5 @@ template:
       value: <CONNECTION_ID_PLACEHOLDER>
 resources:
   - kind: model
-    id: gpt-5
+    id: gpt-4.1
     name: chat
