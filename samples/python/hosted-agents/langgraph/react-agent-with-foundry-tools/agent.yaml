@@ -1,4 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 name: FoundryToolsReactAgent
+# Display name for this agent
+displayName: "Foundry Tools React Agent"
 description: This LangGraph agent uses Foundry tools to perform tasks such as interpreting python code.
 metadata:
   example:
@@ -11,6 +15,8 @@ metadata:
     - learning
   authors:
     - junanchen
+parameters:
+  properties: {}
 template:
   name: FoundryToolsReactAgentLG
   kind: hosted

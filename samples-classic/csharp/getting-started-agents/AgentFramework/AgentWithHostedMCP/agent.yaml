@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 name: AgentWithHostedMCP
 displayName: "Microsoft Learn Response Agent with MCP"
 description: >
@@ -14,6 +16,8 @@ metadata:
     - Model Context Protocol
     - MCP
     - Tool Call Approval
+parameters:
+  properties: {}
 template:
   kind: hosted
   name: AgentWithHostedMCP

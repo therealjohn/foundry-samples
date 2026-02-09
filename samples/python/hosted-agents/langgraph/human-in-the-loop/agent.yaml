@@ -1,4 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 name: HumanInTheLoopAgent
+# Display name for this agent
+displayName: "Human in the Loop Agent"
 description: This LangGraph agent demonstrates human-in-the-loop capabilities.
 metadata:
   example:
@@ -10,6 +14,8 @@ metadata:
     - learning
   authors:
     - junanchen
+parameters:
+  properties: {}
 template:
   name: HumanInTheLoopAgentLG
   kind: hosted

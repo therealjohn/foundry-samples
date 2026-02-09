@@ -1,4 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 name: calendar-agent-with-human-in-the-loop
+# Display name for this agent
+displayName: "Calendar Agent"
 description: This AgentFramework agent demonstrates how to integrate human-in-the-loop functionality using AI Functions.
 metadata:
   example:
@@ -11,6 +15,8 @@ metadata:
     - Human in the Loop
   authors:
     - junanchen
+parameters:
+  properties: {}
 template:
   name: calendar-agent-with-human-in-the-loop
   kind: hosted

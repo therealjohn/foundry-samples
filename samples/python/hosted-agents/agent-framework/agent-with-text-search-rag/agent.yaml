@@ -1,5 +1,9 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 # Unique identifier/name for this agent
 name: agent-with-text-search-rag
+# Display name for this agent
+displayName: "Text Search RAG Agent"
 # Brief description of what this agent does
 description: >
   An AI agent that uses a ContextProvider for retrieval augmented generation (RAG) capabilities.
@@ -16,6 +20,8 @@ metadata:
     - Microsoft Agent Framework
     - Retrieval-Augmented Generation
     - RAG
+parameters:
+  properties: {}
 template:
   name: agent-with-text-search-rag
   # The type of agent - "hosted" for HOBO, "container" for COBO

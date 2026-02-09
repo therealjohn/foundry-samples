@@ -1,4 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 name: CalculatorAgent
+# Display name for this agent
+displayName: "Calculator Agent"
 description: This LangGraph agent can perform arithmetic calculations such as addition, subtraction, multiplication, and division.
 metadata:
   example:
@@ -10,6 +14,8 @@ metadata:
     - learning
   authors:
     - migu
+parameters:
+  properties: {}
 template:
   name: CalculatorAgentLG
   kind: hosted

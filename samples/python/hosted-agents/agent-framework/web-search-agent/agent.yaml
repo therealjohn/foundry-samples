@@ -1,4 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 name: WebSearchAgent
+# Display name for this agent
+displayName: "Web Search Agent"
 description: This Agent can perform web searches and retrieve the latest information from Bing.
 metadata:
   example:
@@ -13,6 +17,8 @@ metadata:
     - Microsoft Agent Framework
   authors:
     - jeomhove
+parameters:
+  properties: {}
 template:
   name: WebSearchAgent
   kind: hosted

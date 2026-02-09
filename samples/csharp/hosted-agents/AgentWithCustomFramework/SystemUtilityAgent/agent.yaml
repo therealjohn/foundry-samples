@@ -1,4 +1,8 @@
-﻿name: SystemUtilityAgent
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
+name: SystemUtilityAgent
+# Display name for this agent
+displayName: "System Utility Agent"
 description: |-
   System Utility Agent (cross-OS, container-aware) — NO local files required.
 
@@ -21,6 +25,8 @@ metadata:
     - learning
   authors:
     - mengla
+parameters:
+  properties: {}
 template:
   name: SystemUtilityAgent
   kind: hosted

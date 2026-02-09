@@ -1,4 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 name: HuggingFace-Agent
+# Display name for this agent
+displayName: "Hugging Face Tool Agent"
 description: Hugging Face agent
 metadata:
   example:
@@ -7,6 +11,8 @@ metadata:
         What's are the trending models in the OpenLLM Leaderboard?
   tags:
     - Microsoft Agent Framework
+parameters:
+  properties: {}
 template:
   name: HuggingFace-Agent
   kind: hosted

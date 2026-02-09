@@ -1,4 +1,6 @@
-﻿name: AgentsInWorkflows
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
+name: AgentsInWorkflows
 displayName: "Translation Chain Workflow Agent"
 description: >
   A workflow agent that performs sequential translation through multiple languages.
@@ -11,6 +13,8 @@ metadata:
     - Azure AI AgentServer
     - Microsoft Agent Framework
     - Workflows
+parameters:
+  properties: {}
 template:
   kind: hosted
   name: AgentsInWorkflows

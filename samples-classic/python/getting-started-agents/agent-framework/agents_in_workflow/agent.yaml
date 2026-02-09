@@ -1,5 +1,9 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 # Unique identifier/name for this agent
 name: agents-in-workflow
+# Display name for this agent
+displayName: "Agents in Workflow"
 # Brief description of what this agent does
 description: >
   A workflow agent that responds to product launch strategy inquiries by concurrently leveraging insights from three specialized agents.
@@ -11,6 +15,8 @@ metadata:
     - Azure AI AgentServer
     - Microsoft Agent Framework
     - Workflows
+parameters:
+  properties: {}
 template:
   name: agents-in-workflow
   # The type of agent - "hosted" for HOBO, "container" for COBO

@@ -1,5 +1,9 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 # Unique identifier/name for this agent
 name: echo-agent
+# Display name for this agent
+displayName: "Echo Agent"
 # Brief description of what this agent does
 description: >
   This sample demonstrates how to create a custom AI agent that echoes user input.
@@ -11,6 +15,8 @@ metadata:
     - Azure AI AgentServer
     - Custom Agent Implementation
     - Microsoft Agent Framework
+parameters:
+  properties: {}
 template:
   name: echo-agent
   kind: hosted

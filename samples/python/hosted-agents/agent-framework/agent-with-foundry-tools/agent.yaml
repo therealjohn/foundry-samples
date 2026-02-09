@@ -1,5 +1,9 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 # Unique identifier/name for this agent
 name: af-agent-with-foundry-tools
+# Display name for this agent
+displayName: "Agent with Foundry Tools"
 # Brief description of what this agent does
 description: >
   An AI agent that uses Azure OpenAI with a Hosted Model Context Protocol (MCP) server.
@@ -13,6 +17,8 @@ metadata:
     - Microsoft Agent Framework
     - Model Context Protocol
     - MCP
+parameters:
+  properties: {}
 template:
   name: af-agent-with-foundry-tools
   kind: hosted

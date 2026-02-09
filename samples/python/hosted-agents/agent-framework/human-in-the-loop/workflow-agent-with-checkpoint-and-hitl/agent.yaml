@@ -1,5 +1,9 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/AgentSchema/refs/heads/main/schemas/v1.0/AgentManifest.yaml
+
 # Unique identifier/name for this agent
 name: af-worfklow-agent-with-checkpoint-and-hitl
+# Display name for this agent
+displayName: "Workflow Agent with Checkpoint"
 # Brief description of what this agent does
 description: >
   A workflow agent built using the Microsoft Agent Framework that includes checkpointing and human-in-the-loop (HITL) capabilities.
@@ -11,6 +15,8 @@ metadata:
     - Azure AI AgentServer
     - Microsoft Agent Framework
     - Human in the Loop
+parameters:
+  properties: {}
 template:
   name: af-worfklow-agent-with-checkpoint-and-hitl
   kind: hosted
